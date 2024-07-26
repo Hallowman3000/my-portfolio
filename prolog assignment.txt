@@ -1,0 +1,47 @@
+% Facts
+
+% Generation 1 (Great-Grandparents)
+male(Paul Kageni).
+female(Anne Ngendo).
+
+% Generation 2 (Grandparents)
+male(James Kamanu).
+female(Hannah Wakageni).
+parent(Paul Kageni, James Kamanu).
+parent(Anne Ngendo, James Kamanu).
+
+% Generation 3 (Parents)
+male(Yusuf Kageni).
+female(Njeri Kageni).
+parent(James Kamanu, Yusuf Kageni).
+parent(Hannah Wakageni, Yusuf Kageni).
+
+% Generation 4 (Children)
+male(Martin Kamanu).
+female(Hilda Ngendo).
+parent(Yusuf Kageni, Martin Kamanu).
+parent(Njeri Kageni, Martin Kamanu).
+parent(Yusuf Kageni, Hilda Ngendo).
+parent(Njeri Kageni, Hilda Ngendo).
+
+% Rules
+
+% X is a father of Y if X is male and X is a parent of Y
+father(X, Y) :- 
+    male(X), 
+    parent(X, Y).
+
+% X is a mother of Y if X is female and X is a parent of Y
+mother(X, Y) :- 
+    female(X), 
+    parent(X, Y).
+
+% X and Y are siblings if they share at least one parent
+siblings(X, Y) :- 
+    parent(Z, X), 
+    parent(Z, Y), 
+    X \= Y.
+
+% Queries
+% To find the mother of a person: mother(X, Y).
+% To find the siblings of a person: siblings(X, Y).
