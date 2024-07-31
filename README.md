@@ -12,4 +12,9 @@ The dashboard: displays current weather details and a 5-day forecast.
 The script.js file, linked at the end, will contain JavaScript to handle weather data fetching and updating the UI.
 
 WEATHER. CSS
+The stylesheet sets a general style and uses two Google Fonts: 'Open Sans' and 'Roboto'.
+The weather dashboard layout is designed to be visually appealing and responsive.
+Styles are applied to various sections including the weather input, current weather display, and weather cards.
+Custom styling and transitions are used for hover effects and focus states.
+The footer is styled to stay at the bottom and span the full width of the page
 
