@@ -24,5 +24,5 @@ def calculate_area():
     else:
         print("Invalid choice. Please choose a valid shape.")
 
-if __name__ == "__main__":
+if name== "__main__":
     calculate_area()
