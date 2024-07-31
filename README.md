@@ -45,9 +45,13 @@ Calculates the area using the appropriate formula
 Output the area of the given shape.
 
 PYTHON GRADE CALCULATOR:
+
 The purpose of this code is to convert numerical marks into letter grades based on The USIU grading scale and interactively prompt the user to input marks to get the corresponding grade.
 
 The key functionalities of this code are:
 1. The "get_grade" function which determines the letter grade based on the provided marks.
 2. The "main" function prompts the user to input numerical marks, converts them to alphabetical grades, and prints the result.
 
+SQL Code for a Hotel:
+
+The script sets up a relational database for managing hotel information, including employees, customers, hotels, and rooms. It provides useful views and queries for retrieving and aggregating data, facilitating hotel management tasks such as monitoring room availability, employee assignments, and pricing strategies.
