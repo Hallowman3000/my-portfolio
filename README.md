@@ -26,3 +26,12 @@ Users can search for weather information by entering a city name or use their cu
 The weather details and a 5-day forecast are displayed on the dashboard.
 The script uses the Geolocation API to get the user's current coordinates.
 Weather data is fetched and displayed using dynamically generated HTML.
+
+PYTHON: AREA OF A CIRCLE, TRIANGLE AND RECTANGLE
+This code is designed to calculate the area of different shapes (circle, rectangle, and triangle) based on user input.
+
+Key functionalities:
+1. The program prompts the user to choose a shape from a list of options
+2. Based on the user's choice, it calculates the area of the chosen shape using the appropriate formula.
+3. The calculated area is then displayed to the user.
+P
