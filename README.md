@@ -18,3 +18,11 @@ Styles are applied to various sections including the weather input, current weat
 Custom styling and transitions are used for hover effects and focus states.
 The footer is styled to stay at the bottom and span the full width of the page
 
+WEATHER. JS
+This JavaScript code adds interactivity to the weather dashboard, enabling users to search for weather information by city name or use their current location to get weather data.
+in summary:
+The script fetches weather data from the OpenWeatherMap API.
+Users can search for weather information by entering a city name or use their current location.
+The weather details and a 5-day forecast are displayed on the dashboard.
+The script uses the Geolocation API to get the user's current coordinates.
+Weather data is fetched and displayed using dynamically generated HTML.
