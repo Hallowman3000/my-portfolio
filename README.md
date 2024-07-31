@@ -59,3 +59,7 @@ The key functionalities of this code are:
 SQL Code for a Hotel:
 
 The script sets up a relational database for managing hotel information, including employees, customers, hotels, and rooms. It provides useful views and queries for retrieving and aggregating data, facilitating hotel management tasks such as monitoring room availability, employee assignments, and pricing strategies.
+
+PROLOG:
+
+This Prolog code represents a family tree and includes facts about individuals and their parent-child relationships, as well as rules to infer additional relationships like father, mother, and siblings.
