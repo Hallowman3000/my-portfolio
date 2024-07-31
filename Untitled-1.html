@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" name="viewport" content="width=device-width">
+    <title>Weather App Project | G6 APT1040B SUMMER 2024 USIU</title>
+    <link rel="stylesheet" href="CSS.CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm [Your Name], a [Your Profession]. I enjoy creating web applications and learning new technologies.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+    <h1>GROUP 6 APT1040B SUMMER 2024 USIU<br /> <span>WEATHER DASHBOARD</span> </h1>
+    <div class="container">
+        <div class="weather-input">
+            <h2>Enter City Name</h2>
+            <input class="city-input" type="text" placeholder="E.g., Nairobi, Lagos, Kigali">
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>_______ ( ______ )</h2>
+                    <h6>Temperature: __°C</h6>
+                    <h6>Wind: __ M/S</h6>
+                    <h6>Humidity: __%</h6>
+                </div>
+                <div class="icon">
+                    <!-- Weather Icon Placeholder -->
+                    <img src="weather-icon.png" alt="Weather Icon">
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Days Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>(2024-07-26)</h3>
+                        <h6>Temp: 22.88°C</h6>
+                        <h6>Wind: 5.57 M/S</h6>
+                        <h6>Humidity: 78%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-07-27)</h3>
+                        <h6>Temp: 23.24°C</h6>
+                        <h6>Wind: 5.4 M/S</h6>
+                        <h6>Humidity: 76%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-07-28)</h3>
+                        <h6>Temp: 22.96°C</h6>
+                        <h6>Wind: 5.41 M/S</h6>
+                        <h6>Humidity: 74%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-07-29)</h3>
+                        <h6>Temp: 22.92°C</h6>
+                        <h6>Wind: 4.96 M/S</h6>
+                        <h6>Humidity: 81%</h6>
+                    </li>
+                    <li class="card">
+                        <h3>(2024-07-30)</h3>
+                        <h6>Temp: 23.49°C</h6>
+                        <h6>Wind: 5.75 M/S</h6>
+                        <h6>Humidity: 74%</h6>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form action="https://formspree.io/YOUR_EMAIL" method="POST">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    </div>
+    <div class="footer">&copy; Group 6 Summer 2024 | APT1040B | United States International University</div>
 </body>
 </html>
