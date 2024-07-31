@@ -44,8 +44,9 @@ Prompts the user to enter the necessary dimensions for the chosen shape.
 Calculates the area using the appropriate formula
 Output the area of the given shape.
 
-GRADE CALCULATOR:
+PYTHON GRADE CALCULATOR:
+The purpose of this code is to convert numerical marks into letter grades based on The USIU grading scale and interactively prompt the user to input marks to get the corresponding grade.
 
-
-
-
+The key functionalities of this code are:
+1. The "get_grade" function which determines the letter grade based on the provided marks.
+2. The "main" function prompts the user to input numerical marks, converts them to alphabetical grades, and prints the result.
