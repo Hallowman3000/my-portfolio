@@ -34,4 +34,18 @@ Key functionalities:
 1. The program prompts the user to choose a shape from a list of options
 2. Based on the user's choice, it calculates the area of the chosen shape using the appropriate formula.
 3. The calculated area is then displayed to the user.
-P
+
+JAVA:
+The purpose of the provided Java code is to calculate the area of a circle, rectangle, or triangle based on user input. It performs the following steps:
+
+Displays a menu for the user to choose a shape.
+Reads the user's choice.
+Prompts the user to enter the necessary dimensions for the chosen shape.
+Calculates the area using the appropriate formula
+Output the area of the given shape.
+
+GRADE CALCULATOR:
+
+
+
+
