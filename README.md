@@ -12,6 +12,7 @@ Users can enter a city name or use their current location to get weather informa
 The dashboard: displays current weather details and a 5-day forecast.
 The script.js file, linked at the end, will contain JavaScript to handle weather data fetching and updating the UI.
 
+
 WEATHER. CSS
 
 The stylesheet sets a general style and uses two Google Fonts: 'Open Sans' and 'Roboto'.
